@@ -73,7 +73,7 @@ const Header:React.FC =()=>(
                         <li className="menu-sub-list">
                           <a
                             href="featured.html"
-                            className="link menu-sub-link"
+                            className="lindk menu-sub-link"
                           >
                             Featured
                           </a>
