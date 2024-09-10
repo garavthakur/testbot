@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	 * Dropdown Init
 	 */
 	const dropdownElementList = document.querySelectorAll('[data-bs-toggle="dropdown"]');
-	const dropdownList = [...dropdownElementList].map((dropdownToggleEl) => new bootstrap.Dropdown(dropdownToggleEl));
+	// const dropdownList = [...dropdownElementList].map((dropdownToggleEl) => new bootstrap.Dropdown(dropdownToggleEl));
 	/**
 	 * Sidebar Content Stop Propagation
 	 */

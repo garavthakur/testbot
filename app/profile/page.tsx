@@ -1,5 +1,6 @@
+
 import React from "react"
-import Image from "next/image";
+// import Image from "next/image";
 import Header from "../Header";
 import CustomCursor from "../customCursor";
 import Footer from "../footer";
@@ -127,7 +128,7 @@ const Profile:React.FC=()=>(
       <div className="mission-wrapper">
         <div className="row align-items-center">
           <div className="col-xl-6">
-            <p className="fs-18 fw-bold clr-neutral-80">We pride ourselves on offering AI Generators that are unmatched in their quality, versatility, and ease of use. Here's what sets us apart from the competition:</p>
+            <p className="fs-18 fw-bold clr-neutral-80">We pride ourselves on offering AI Generators that are unmatched in their quality, versatility, and ease of use. Here&#39;s what sets us apart from the competition:</p>
             <p className="clr-neutral-80">With our AI Generators, the possibilities are endless. From generating compelling marketing copy and designing stunning visuals to automating data analysis and creating personalized user experiences, our tools will transform the way you work and help you achieve remarkable outcomes.</p>
             <p className="clr-neutral-80">Join our community of innovators, creators, and forward-thinkers who are leveraging the power of AI to revolutionize their industries. Start your journey with [Company Name] today and unlock the full potential of AI Generators.</p>
           </div>

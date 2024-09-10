@@ -2,6 +2,7 @@
 import React from "react"
 import Link from "next/link";
 
+
 const Header:React.FC =()=>(
 <header className="header header--1 header--fixed">
         <div className="container">

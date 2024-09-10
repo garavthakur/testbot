@@ -166,8 +166,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	/**
 	 * Dropdown Init
 	 */
-	const dropdownElementList = document.querySelectorAll('[data-bs-toggle="dropdown"]');
-	const dropdownList = [...dropdownElementList].map((dropdownToggleEl) => new bootstrap.Dropdown(dropdownToggleEl));
+	// const dropdownElementList = document.querySelectorAll('[data-bs-toggle="dropdown"]');
+	// const dropdownList = [...dropdownElementList].map((dropdownToggleEl) => new bootstrap.Dropdown(dropdownToggleEl));
 	/**
 	 * Sidebar Content Stop Propagation
 	 */
@@ -238,19 +238,19 @@ document.addEventListener("DOMContentLoaded", function () {
 	 */
 	const faq1 = document.querySelector(".faq-1");
 	if (faq1) {
-		const faq1Init = new Swiper(faq1, {
-			loop: true,
-			slidesPerView: "auto",
-			spaceBetween: 24,
-			speed: 2000,
-			autoplay: true,
-			breakpoints: {
-				768: {
-					slidesPerView: 2,
-					slidesPerGroup: 2,
-				},
-			},
-		});
+		// const faq1Init = new Swiper(faq1, {
+		// 	loop: true,
+		// 	slidesPerView: "auto",
+		// 	spaceBetween: 24,
+		// 	speed: 2000,
+		// 	autoplay: true,
+		// 	breakpoints: {
+		// 		768: {
+		// 			slidesPerView: 2,
+		// 			slidesPerGroup: 2,
+		// 		},
+		// 	},
+		// });
 	}
 	/**
 	 * Sidebar Toggle
@@ -276,25 +276,25 @@ document.addEventListener("DOMContentLoaded", function () {
 	 */
 	const aboutAiSlider = document.querySelector(".about-ai-slider");
 	if (aboutAiSlider) {
-		const aboutAiSliderInit = new Swiper(aboutAiSlider, {
-			direction: "vertical",
-			slidesPerView: 1,
-			mousewheel: true,
-			scrollbar: {
-				el: ".about-ai-slider .swiper-scrollbar",
-				verticalClass: "swiper-scrollbar-vertical",
-			},
-			pagination: {
-				el: ".about-ai-slider .swiper-pagination",
-				type: "fraction",
-				verticalClass: "swiper-pagination-vertical",
-				renderFraction: function (currentClass, totalClass) {
-					return (
-						'<span class="' + currentClass + '"></span>' + " " + '<span class="' + totalClass + '"></span>'
-					);
-				},
-			},
-		});
+		// const aboutAiSliderInit = new Swiper(aboutAiSlider, {
+		// 	direction: "vertical",
+		// 	slidesPerView: 1,
+		// 	mousewheel: true,
+		// 	scrollbar: {
+		// 		el: ".about-ai-slider .swiper-scrollbar",
+		// 		verticalClass: "swiper-scrollbar-vertical",
+		// 	},
+		// 	pagination: {
+		// 		el: ".about-ai-slider .swiper-pagination",
+		// 		type: "fraction",
+		// 		verticalClass: "swiper-pagination-vertical",
+		// 		renderFraction: function (currentClass, totalClass) {
+		// 			return (
+		// 				'<span class="' + currentClass + '"></span>' + " " + '<span class="' + totalClass + '"></span>'
+		// 			);
+		// 		},
+		// 	},
+		// });
 	}
 	/**
 	 * Select pricing
@@ -453,36 +453,36 @@ document.addEventListener("DOMContentLoaded", function () {
 	 */
 	const testimonialSliderThree = document.querySelector(".testimonial-slider-3__is");
 	if (testimonialSliderThree) {
-		const testimonialSliderThreeInit = new Swiper(testimonialSliderThree, {
-			slidesPerView: 1,
-			loop: true,
-			spaceBetween: 24,
-			navigation: {
-				nextEl: ".testimonial-slider-3__nav-next",
-				prevEl: ".testimonial-slider-3__nav-prev",
-			},
-			breakpoints: {
-				768: {
-					slidesPerView: 2,
-				},
-				1200: {
-					slidesPerView: 3,
-				},
-			},
-		});
+		// const testimonialSliderThreeInit = new Swiper(testimonialSliderThree, {
+		// 	slidesPerView: 1,
+		// 	loop: true,
+		// 	spaceBetween: 24,
+		// 	navigation: {
+		// 		nextEl: ".testimonial-slider-3__nav-next",
+		// 		prevEl: ".testimonial-slider-3__nav-prev",
+		// 	},
+		// 	breakpoints: {
+		// 		768: {
+		// 			slidesPerView: 2,
+		// 		},
+		// 		1200: {
+		// 			slidesPerView: 3,
+		// 		},
+		// 	},
+		// });
 	}
 
 	// Blog list slider
 	const blogListSlider = document.querySelector(".blog-single-slider");
 	if (blogListSlider) {
-		const blogListSliderInit = new Swiper(blogListSlider, {
-			slidesPerView: 1,
-			loop: true,
-			spaceBetween: 24,
-			pagination: {
-				el: ".swiper-pagination",
-			},
-		});
+		// const blogListSliderInit = new Swiper(blogListSlider, {
+		// 	slidesPerView: 1,
+		// 	loop: true,
+		// 	spaceBetween: 24,
+		// 	pagination: {
+		// 		el: ".swiper-pagination",
+		// 	},
+		// });
 	}
 
 	/**
@@ -529,9 +529,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	/**
 	 * Video Popup
 	 */
-	const lightbox = GLightbox({
-		selector: ".glightbox",
-	});
+	// const lightbox = GLightbox({
+	// 	selector: ".glightbox",
+	// });
 
 	// Only Large Screen
 	const lgScreen = "(min-width: 992px)";
@@ -997,7 +997,7 @@ if (butterElement) {
 	butter.init(options);
 }
 
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function () {
 	animateTextByClass("text-anim");
 });
 
@@ -1105,16 +1105,16 @@ if (passEyeButtons) {
 const listSlider = document.querySelector(".listSlider");
 
 if (listSlider) {
-	const listSliderInit = new Swiper(listSlider, {
-		direction: "vertical",
-		grabCursor: true,
-		centeredSlides: true,
-		slidesPerView: "auto",
-		spaceBetween: 20,
-		loop: false,
-		speed: 1000,
-		autoplay: {
-			delay: 1000,
-		},
-	});
+	// const listSliderInit = new Swiper(listSlider, {
+	// 	direction: "vertical",
+	// 	grabCursor: true,
+	// 	centeredSlides: true,
+	// 	slidesPerView: "auto",
+	// 	spaceBetween: 20,
+	// 	loop: false,
+	// 	speed: 1000,
+	// 	autoplay: {
+	// 		delay: 1000,
+	// 	},
+	// });
 }

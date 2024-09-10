@@ -1,7 +1,9 @@
-import Image from "next/image";
+
+// import Image from "next/image";
 import Header from "./Header";
 import CustomCursor from "./customCursor";
 import Footer from "./footer";
+
 export default function Home() {
   return (
      <>
@@ -128,12 +130,12 @@ export default function Home() {
                 </div>
                 <div className="col-12">
                   <h6 className="clr-neutral-80 mb-10 animate-line-3d">
-                    We're passionate about empowering creatives with the tools
+                    We&#39;re passionate about empowering creatives with the tools
                     they need to
                     <span className="clr-grad-1">
                       bring their vision to
                     </span>{" "}
-                    life that's why we've developed
+                    life that&#39;s why we&#39;ve developed
                   </h6>
                   <div className="d-flex flex-wrap align-items-center gap-10 reveal-from-bottom">
                     <a
@@ -492,8 +494,8 @@ export default function Home() {
               </h2>
               <div className="pt-4 ps-4 pt-md-8 ps-md-16 border-start border-neutral-90 border-opacity-1">
                 <p className="mb-6 clr-neutral-80 animate-text-from-right">
-                  We're passionate about empowering creatives with the tools
-                  they need to bring their vision to life that's why we've
+                  We&#39;re passionate about empowering creatives with the tools
+                  they need to bring their vision to life that&#39;s why we&#39;ve
                   developed.
                 </p>
                 <p className="mb-10 clr-neutral-80 animate-text-from-right">
@@ -960,8 +962,8 @@ export default function Home() {
                   </h6>
                 </div>
                 <p className="mb-0 clr-neutral-80 animate-text-from-right">
-                  We're passionate about empowering creatives with the tools
-                  they need to bring their vision to life that's why we've
+                  We&#39;re passionate about empowering creatives with the tools
+                  they need to bring their vision to life that&#39;s why we&#39;ve
                   developed.
                 </p>
               </div>
@@ -982,8 +984,8 @@ export default function Home() {
                   </div>
                   <h6 className="mb-6 clr-neutral-90">Excellent Support</h6>
                   <p className="mb-0 clr-neutral-80">
-                    We're passionate about empowering creatives with the tools
-                    they need to bring their vision to life that's why we've
+                    We&#39;re passionate about empowering creatives with the tools
+                    they need to bring their vision to life that&#39;s why we&#39;ve
                     developed.
                   </p>
                 </div>
@@ -999,8 +1001,8 @@ export default function Home() {
                   </div>
                   <h6 className="mb-6 clr-neutral-90">Reliable Expert</h6>
                   <p className="mb-0 clr-neutral-80">
-                    We're passionate about empowering creatives with the tools
-                    they need to bring their vision to life that's why we've
+                    We&#39;re passionate about empowering creatives with the tools
+                    they need to bring their vision to life that&#39;s why we&#39;ve
                     developed.
                   </p>
                 </div>
@@ -1016,8 +1018,8 @@ export default function Home() {
                   </div>
                   <h6 className="mb-6 clr-neutral-90">Unique Technology</h6>
                   <p className="mb-0 clr-neutral-80">
-                    We're passionate about empowering creatives with the tools
-                    they need to bring their vision to life that's why we've
+                    We&#39;re passionate about empowering creatives with the tools
+                    they need to bring their vision to life that&#39;s why we&#39;ve
                     developed.
                   </p>
                 </div>
@@ -1033,8 +1035,8 @@ export default function Home() {
                   </div>
                   <h6 className="mb-6 clr-neutral-90">High Image Quality</h6>
                   <p className="mb-0 clr-neutral-80">
-                    We're passionate about empowering creatives with the tools
-                    they need to bring their vision to life that's why we've
+                    We&#39;re passionate about empowering creatives with the tools
+                    they need to bring their vision to life that&#39;s why we&#39;ve
                     developed.
                   </p>
                 </div>
@@ -1132,11 +1134,11 @@ export default function Home() {
                   <div className="swiper-slide">
                     <div className="d-flex flex-column justify-content-between px-8 py-12 rounded-1 border border-neutral-10 h-100">
                       <p className="faq-1__para mb-6 clr-neutral-80">
-                        "Our AI image solutions have exceeded our customers'
+                      &#34;Our AI image solutions have exceeded our customers&#39;
                         expectations. they appreciate the remarkable quality,
-                        efficiency, and creative Here's a opportunities. Here's
+                        efficiency, and creative Here&#39;s a opportunities. Here&#39;s
                         a glimpse of their positive feedback and new found
-                        creative opportunities satisfaction.."
+                        creative opportunities satisfaction..&#34;
                       </p>
                       <div className="d-flex align-items-center justify-content-between flex-wrap gap-4">
                         <div className="d-flex align-items-center gap-4 flex-wrap">
@@ -1189,11 +1191,11 @@ export default function Home() {
                   <div className="swiper-slide">
                     <div className="d-flex flex-column justify-content-between px-8 py-12 rounded-1 border border-neutral-10 h-100">
                       <p className="faq-1__para mb-6 clr-neutral-80">
-                        "Our AI image solutions have exceeded our customers'
+                      &#34;Our AI image solutions have exceeded our customers&#39;
                         expectations. they appreciate the remarkable quality,
-                        efficiency, and creative Here's a opportunities. Here's
+                        efficiency, and creative Here&#39;s a opportunities. Here&#39;s
                         a glimpse of their positive feedback and new found
-                        creative opportunities satisfaction.."
+                        creative opportunities satisfaction..&#34;
                       </p>
                       <div className="d-flex align-items-center justify-content-between flex-wrap gap-4">
                         <div className="d-flex align-items-center gap-4 flex-wrap">
@@ -1246,11 +1248,11 @@ export default function Home() {
                   <div className="swiper-slide">
                     <div className="d-flex flex-column justify-content-between px-8 py-12 rounded-1 border border-neutral-10 h-100">
                       <p className="faq-1__para mb-6 clr-neutral-80">
-                        "Our AI image solutions have exceeded our customers'
+                      &#34;Our AI image solutions have exceeded our customers&#39;
                         expectations. they appreciate the remarkable quality,
-                        efficiency, and creative Here's a opportunities. Here's
+                        efficiency, and creative Here&#39;s a opportunities. Here&#39;s
                         a glimpse of their positive feedback and new found
-                        creative opportunities satisfaction.."
+                        creative opportunities satisfaction..&#34;
                       </p>
                       <div className="d-flex align-items-center justify-content-between flex-wrap gap-4">
                         <div className="d-flex align-items-center gap-4 flex-wrap">
@@ -1303,11 +1305,11 @@ export default function Home() {
                   <div className="swiper-slide">
                     <div className="d-flex flex-column justify-content-between px-8 py-12 rounded-1 border border-neutral-10 h-100">
                       <p className="faq-1__para mb-6 clr-neutral-80">
-                        "Our AI image solutions have exceeded our customers'
+                      &#34;Our AI image solutions have exceeded our customers&#39;
                         expectations. they appreciate the remarkable quality,
-                        efficiency, and creative Here's a opportunities. Here's
+                        efficiency, and creative Here&#39;s a opportunities. Here&#39;s
                         a glimpse of their positive feedback and new found
-                        creative opportunities satisfaction.."
+                        creative opportunities satisfaction..&#34;
                       </p>
                       <div className="d-flex align-items-center justify-content-between flex-wrap gap-4">
                         <div className="d-flex align-items-center gap-4 flex-wrap">
@@ -1927,7 +1929,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -1968,7 +1970,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2008,7 +2010,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2049,7 +2051,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2106,7 +2108,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;.Article Writing&#34;..
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2147,7 +2149,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2187,7 +2189,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2228,7 +2230,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2285,7 +2287,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2326,7 +2328,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2366,7 +2368,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2407,7 +2409,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2464,7 +2466,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2505,7 +2507,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2545,7 +2547,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate
@@ -2586,7 +2588,7 @@ export default function Home() {
                                 </li>
                                 <li>
                                   Log in to the app and choose a template, such
-                                  as "Article Writing".
+                                  as &#34;Article Writing&#34;.
                                 </li>
                                 <li>
                                   Fill in the required fields and click Generate

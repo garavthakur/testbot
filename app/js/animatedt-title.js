@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
             showLetter(nextWord.querySelector('i'), nextWord, bool, lettersDelay);
         } else if (word.parentElement.classList.contains('clip')) {
             var wordsWrapper = word.parentElement.querySelector('.cd-words-wrapper');
-            var width = wordsWrapper.offsetWidth;
+            // var width = wordsWrapper.offsetWidth;
             wordsWrapper.style.width = '2px';
             setTimeout(function() {
                 switchWord(word, nextWord);
@@ -172,9 +172,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return word.nextElementSibling ? word.nextElementSibling : word.parentElement.firstElementChild;
     }
 
-    function takePrev(word) {
-        return word.previousElementSibling ? word.previousElementSibling : word.parentElement.lastElementChild;
-    }
+    // function takePrev(word) {
+    //     return word.previousElementSibling ? word.previousElementSibling : word.parentElement.lastElementChild;
+    // }
 
     function switchWord(oldWord, newWord) {
         oldWord.classList.remove('is-visible');
