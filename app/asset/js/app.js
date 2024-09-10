@@ -491,20 +491,20 @@ document.addEventListener("DOMContentLoaded", function () {
 	const heroTwoSlider = document.querySelector(".hero-2-slider");
 	const heroTwoSliderThumb = document.querySelector(".hero-2-slider-thumb");
 	if (heroTwoSlider || heroTwoSliderThumb) {
-		const heroTwoSliderThumbInit = new Swiper(heroTwoSliderThumb, {
-			spaceBetween: 16,
-			slidesPerView: 2,
-			freeMode: true,
-			autoplay: true,
-		});
-		const heroTwoSliderInit = new Swiper(heroTwoSlider, {
-			spaceBetween: 16,
-			effect: "fade",
-			autoplay: true,
-			thumbs: {
-				swiper: heroTwoSliderThumbInit,
-			},
-		});
+		// const heroTwoSliderThumbInit = new Swiper(heroTwoSliderThumb, {
+		// 	spaceBetween: 16,
+		// 	slidesPerView: 2,
+		// 	freeMode: true,
+		// 	autoplay: true,
+		// });
+		// const heroTwoSliderInit = new Swiper(heroTwoSlider, {
+		// 	spaceBetween: 16,
+		// 	effect: "fade",
+		// 	autoplay: true,
+		// 	thumbs: {
+		// 		swiper: heroTwoSliderThumbInit,
+		// 	},
+		// });
 	}
 	/**
 	 * Selected Product Details
