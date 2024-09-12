@@ -10,16 +10,19 @@ const Header:React.FC =()=>(
             <div className="col-12">
               <nav className="menu d-lg-flex justify-content-lg-between align-items-lg-center py-3 py-lg-0">
                 <div className="d-flex align-items-center justify-content-between">
-                  <a
-                    href="index.html"
+                  {/* <a
+                    href="#"
                     className="logo link d-inline-flex align-items-center flex-shrink-0"
-                  >
-                    <img
-                      src="/img/logo-light.png"
+                  > */}
+              <Link href='/' className="logo link d-inline-flex align-items-center flex-shrink-0 ">      
+                  <img
+                      src="/img/Ai-Bot-logo.png"
                       alt="logo"
                       className="img-fluid object-fit-contain"
                     />
-                  </a>
+                  </Link>  
+                    
+                  {/* </a> */}
                   <button className="menu-toggle w-10 h-10 p-0 border-0 lh-1 bg-primary-50 clr-neutral-100 :clr-neutral-100 transition :bg-primary-300 rounded flex-shrink-0 d-lg-none order-sm-3 fs-24">
                     <i className="bi bi-list"></i>
                   </button>
@@ -111,7 +114,7 @@ const Header:React.FC =()=>(
                   <ul className="list list-lg-row gap-4 gap-lg-6">
                     <li className="menu-list mx-4 mx-lg-0">
                       <a
-                        href="login.html"
+                        href="#"
                         className="animated-border-btn link d-inline-flex justify-content-center rounded overflow-hidden position-relative z-1"
                       >
                         <span className="d-inline-block transition bg-neutral-10 :bg-primary-key clr-white px-6 py-2 fw-bold text-center rounded">
@@ -121,7 +124,7 @@ const Header:React.FC =()=>(
                     </li>
                     <li className="menu-list mx-4 mx-lg-0">
                       <a
-                        href="register.html"
+                        href="#"
                         className="gradient-btn-1 position-relative z-1 link d-inline-flex justify-content-center px-4 py-2 rounded fw-bold text-center"
                       >
                         Get Started

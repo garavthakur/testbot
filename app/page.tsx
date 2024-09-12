@@ -45,7 +45,7 @@ export default function Home() {
                 </h1>
                 <p className="fs-18 fw-bold clr-neutral-80 max-text-50 mx-auto mb-10 animate-text-from-bottom">
                   Your One-Stop Solution for Content Creation,Audio Generation,
-                  Image Crafting, & AI Chatbot Development.
+                  Image Crafting, & AI bot Development.
                 </p>
                 <div className="newsletter-1 d-inline-block w-100 max-text-60 mx-auto mb-4 position-relative z-1 overflow-hidden rounded fadeIn_bottom">
                   <div className="d-flex p-3 bg-neutral-10 rounded">
@@ -139,7 +139,7 @@ export default function Home() {
                   </h6>
                   <div className="d-flex flex-wrap align-items-center gap-10 reveal-from-bottom">
                     <a
-                      href="register.html"
+                      href="#"
                       className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 px-6 py-4 rounded fw-bold text-center"
                     >
                       <span className="d-inline-block"> Join Community </span>
@@ -695,7 +695,7 @@ export default function Home() {
                     </p>
                     <div className="fadein_bottom_2">
                       <a
-                        href="login.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 p-4 rounded fw-bold text-center z-1"
                       >
                         <span className="d-inline-block">
@@ -738,7 +738,7 @@ export default function Home() {
                     </p>
                     <div className="fadein_bottom_3">
                       <a
-                        href="login.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 p-4 rounded fw-bold text-center z-1"
                       >
                         <span className="d-inline-block">
@@ -781,7 +781,7 @@ export default function Home() {
                     </p>
                     <div className="fadein_bottom_4">
                       <a
-                        href="login.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 p-4 rounded fw-bold text-center z-1"
                       >
                         <span className="d-inline-block">
@@ -822,7 +822,7 @@ export default function Home() {
                     </p>
                     <div className="fadein_bottom_5">
                       <a
-                        href="login.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 p-4 rounded fw-bold text-center z-1"
                       >
                         <span className="d-inline-block">
@@ -865,7 +865,7 @@ export default function Home() {
                     </p>
                     <div className="fadein_bottom_6">
                       <a
-                        href="login.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 p-4 rounded fw-bold text-center z-1"
                       >
                         <span className="d-inline-block">
@@ -908,7 +908,7 @@ export default function Home() {
                     </p>
                     <div className="fadein_bottom_7">
                       <a
-                        href="login.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 p-4 rounded fw-bold text-center z-1"
                       >
                         <span className="d-inline-block">
@@ -1434,7 +1434,7 @@ export default function Home() {
                     Free Plan
                   </h4>
                   <a
-                    href="login.html"
+                    href="#"
                     className="link d-inline-flex justify-content-center align-items-center gap-3 rounded bg-neutral-10 clr-white :bg-primary-40 px-6 py-3 fs-14 text-center rounded top-shadow mb-12"
                   >
                     <span className="d-inline-block fw-extrabold">
@@ -1569,7 +1569,7 @@ export default function Home() {
                     $ 239.00
                   </h4>
                   <a
-                    href="login.html"
+                    href="#"
                     className="link d-inline-flex justify-content-center align-items-center gap-3 rounded bg-neutral-10 :bg-primary-40 clr-white px-6 py-3 fs-14 text-center rounded top-shadow mb-12"
                   >
                     <span className="d-inline-block fw-extrabold">
@@ -1700,7 +1700,7 @@ export default function Home() {
                     $ 479.88
                   </h4>
                   <a
-                    href="login.html"
+                    href="#"
                     className="link d-inline-flex justify-content-center align-items-center gap-3 rounded bg-neutral-10 :bg-primary-40 clr-white px-6 py-3 fs-14 text-center rounded top-shadow mb-12"
                   >
                     <span className="d-inline-block fw-extrabold">
@@ -2068,7 +2068,7 @@ export default function Home() {
                         </div>
                       </div>
                       <a
-                        href="faq.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 px-4 py-3 rounded fw-bold text-center z-1 mb-1"
                       >
                         <span className="d-inline-block">Show More Faq</span>
@@ -2247,7 +2247,7 @@ export default function Home() {
                         </div>
                       </div>
                       <a
-                        href="faq.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 px-4 py-3 rounded fw-bold text-center z-1 mb-1"
                       >
                         <span className="d-inline-block">Show More Faq</span>
@@ -2426,7 +2426,7 @@ export default function Home() {
                         </div>
                       </div>
                       <a
-                        href="faq.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 px-4 py-3 rounded fw-bold text-center z-1 mb-1"
                       >
                         <span className="d-inline-block">Show More Faq</span>
@@ -2605,7 +2605,7 @@ export default function Home() {
                         </div>
                       </div>
                       <a
-                        href="faq.html"
+                        href="#"
                         className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 px-4 py-3 rounded fw-bold text-center z-1 mb-1"
                       >
                         <span className="d-inline-block">Show More Faq</span>
@@ -2670,7 +2670,7 @@ export default function Home() {
                       >
                         I agree to the
                         <a
-                          href="privacy-policy.html"
+                          href="#"
                           className="link d-inline-block clr-primary-60 text-decoration-underline"
                         >
                           Privacy Policy
@@ -2758,7 +2758,7 @@ export default function Home() {
                 <div className="blog-card-1__body">
                   <h6 className="mb-6 fs-24">
                     <a
-                      href="blog-details.html"
+                      href="#"
                       className="link d-block clr-neutral-90"
                     >
                       Antenna Promises New era For Satellite Communication
@@ -2798,7 +2798,7 @@ export default function Home() {
                 <div className="blog-card-1__body">
                   <h6 className="mb-6 fs-24">
                     <a
-                      href="blog-details.html"
+                      href="#"
                       className="link d-block clr-neutral-90"
                     >
                       AI software offers repetitive & mundane patterns
@@ -2838,7 +2838,7 @@ export default function Home() {
                 <div className="blog-card-1__body">
                   <h6 className="mb-6 fs-24">
                     <a
-                      href="blog-details.html"
+                      href="#"
                       className="link d-block clr-neutral-90"
                     >
                       Antenna Promises New era For Satellite Communication
@@ -2874,7 +2874,7 @@ export default function Home() {
                       </h4>
                       <div className="d-flex align-items-center justify-content-center gap-6 flex-wrap fadein_bottom_14">
                         <a
-                          href="login.html"
+                          href="#"
                           className="gradient-btn-1 position-relative link d-inline-flex justify-content-center align-items-center gap-2 px-6 py-3 rounded fw-bold text-center"
                         >
                           <span className="d-inline-block">
@@ -2885,7 +2885,7 @@ export default function Home() {
                           </span>
                         </a>
                         <a
-                          href="register.html"
+                          href="#"
                           className="link d-inline-flex justify-content-center align-items-center gap-3 rounded bg-neutral-10 :bg-primary-key clr-white px-6 py-3 text-center rounded top-shadow"
                         >
                           <span className="d-inline-block fw-extrabold">
